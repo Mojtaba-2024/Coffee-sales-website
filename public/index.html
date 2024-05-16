@@ -49,6 +49,9 @@
             <path strokeLinecap="round" strokeLinejoin="round"
                 d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
         </symbol>
+        <symbol id="arrow-left-mini" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" d="M17 10a.75.75 0 0 1-.75.75H5.612l4.158 3.96a.75.75 0 1 1-1.04 1.08l-5.5-5.25a.75.75 0 0 1 0-1.08l5.5-5.25a.75.75 0 1 1 1.04 1.08L5.612 9.25H16.25A.75.75 0 0 1 17 10Z" clipRule="evenodd" />
+          </symbol>          
         <symbol id="chevron-left" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
             stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
@@ -558,7 +561,7 @@
                     </a>
                 </div>
                 <!-- Section Body -->
-                <div class=" grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3.5 md:gap-5">
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3.5 md:gap-5">
                     <div class="p-5 rounded-2xl shadow-normal bg-white dark:bg-zinc-700">
                         <div class="relative mb-2 md:mb-5">
                             <img src="./images/products/p1.png" class="md:w-auto w-32 mx-auto" loading="lazy" alt="P 1">
@@ -1435,6 +1438,146 @@
                                     <use href="#chevron-left-mini"></use>
                                 </svg>
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blogs mb-8 md:mb-28">
+            <div class="container">
+                <!-- Section Head -->
+                <div class="flex items-end justify-between mb-5 md:mb-12">
+                    <div>
+                        <h3 class="section-title">مطالب خواندنی</h3>
+                    </div>
+                    <a href="#" class="section-link">
+                        <span class="hidden md:inline-block">مشاهده همه مطالب</span>
+                        <span class="inline-block md:hidden">مشاهده همه</span>
+                        <svg class="w-5 h-5">
+                            <use href="#chevron-left-mini"></use>
+                        </svg>
+                    </a>
+                </div>
+                <!-- Section Content -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-3.5 md:gap-5">
+                    <div class="p-2.5 md:pb-2 flex gap-x-2.5 sm:block bg-white dark:bg-zinc-700 shadow-normal rounded-2xl">
+                        <div class="relative w-[130px] h-[130px] shrink-0 sm:w-auto sm:h-auto group sm:mb-4 rounded-2xl rounded-bl-4xl overflow-hidden">
+                            <img src="./images/blogs/blog-1.png" class="h-full sm:h-auto object-cover" alt="Blog 1">
+                            <div class="absolute inset-0 w-full h-full opacity-0 invisible group-hover:opacity-100 group-hover:visible hidden md:flex-center bg-gradient-to-r from-orange-200/80 to-orange-300/80 transition-all delay-75">
+                                <svg class="w-[138px] h-[54px] text-amber-900">
+                                    <use href="#logo-type"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="w-full flex flex-col sm:flex-row items-start justify-between">
+                            <a href="#" class="inline-block font-DanaMedium mt-2.5 ml-1.5 sm:ml-0 sm:mt-0 text-sm/7 md:text-lg line-clamp-2 max-w-[193px] text-zinc-700 dark:text-white">طرز تهیه قهوه دمی با دستگاه اروپرس</a>
+                            <div class="hidden sm:flex gap-5">
+                                <span class="block w-px h-[61px] bg-gray-100 dark:bg-white/10"></span>
+                                <div class="flex flex-col ml-[18px] -mt-1 text-left text-sm text-teal-600 dark:text-emerald-500">
+                                    <span class="font-DanaDemiBold text-2xl">21</span>
+                                    <span>مرداد</span>
+                                    <span>1402</span>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between w-full sm:hidden border-t border-gray-100 dark:border-white/10 pt-[18px] pb-1.5">
+                                <span class="text-teal-600 dark:text-emerald-500 text-xs">21 مرداد 1402</span>
+                                <a href="#" class="font-DanaMedium flex items-center gap-x-1 ml-1.5 h-5 rounded-md pr-2.5 pl-2 bg-orange-200/20 text-orange-300">
+                                    مطالعه
+                                    <svg class="w-3.5 h-3.5">
+                                        <use href="#arrow-left-mini"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2.5 md:pb-2 flex gap-x-2.5 sm:block bg-white dark:bg-zinc-700 shadow-normal rounded-2xl">
+                        <div class="relative w-[130px] h-[130px] shrink-0 sm:w-auto sm:h-auto group sm:mb-4 rounded-2xl rounded-bl-4xl overflow-hidden">
+                            <img src="./images/blogs/blog-2.png" class="h-full sm:h-auto object-cover" alt="Blog 1">
+                            <div class="absolute inset-0 w-full h-full opacity-0 invisible group-hover:opacity-100 group-hover:visible hidden md:flex-center bg-gradient-to-r from-orange-200/80 to-orange-300/80 transition-all delay-75">
+                                <svg class="w-[138px] h-[54px] text-amber-900">
+                                    <use href="#logo-type"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="w-full flex flex-col sm:flex-row items-start justify-between">
+                            <a href="#" class="inline-block font-DanaMedium mt-2.5 ml-1.5 sm:ml-0 sm:mt-0 text-sm/7 md:text-lg line-clamp-2 max-w-[193px] text-zinc-700 dark:text-white">طرز تهیه قهوه دمی با دستگاه اروپرس</a>
+                            <div class="hidden sm:flex gap-5">
+                                <span class="block w-px h-[61px] bg-gray-100 dark:bg-white/10"></span>
+                                <div class="flex flex-col ml-[18px] -mt-1 text-left text-sm text-teal-600 dark:text-emerald-500">
+                                    <span class="font-DanaDemiBold text-2xl">21</span>
+                                    <span>مرداد</span>
+                                    <span>1402</span>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between w-full sm:hidden border-t border-gray-100 dark:border-white/10 pt-[18px] pb-1.5">
+                                <span class="text-teal-600 dark:text-emerald-500 text-xs">21 مرداد 1402</span>
+                                <a href="#" class="font-DanaMedium flex items-center gap-x-1 ml-1.5 h-5 rounded-md pr-2.5 pl-2 bg-orange-200/20 text-orange-300">
+                                    مطالعه
+                                    <svg class="w-3.5 h-3.5">
+                                        <use href="#arrow-left-mini"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2.5 md:pb-2 flex gap-x-2.5 sm:block bg-white dark:bg-zinc-700 shadow-normal rounded-2xl">
+                        <div class="relative w-[130px] h-[130px] shrink-0 sm:w-auto sm:h-auto group sm:mb-4 rounded-2xl rounded-bl-4xl overflow-hidden">
+                            <img src="./images/blogs/blog-3.png" class="h-full sm:h-auto object-cover" alt="Blog 1">
+                            <div class="absolute inset-0 w-full h-full opacity-0 invisible group-hover:opacity-100 group-hover:visible hidden md:flex-center bg-gradient-to-r from-orange-200/80 to-orange-300/80 transition-all delay-75">
+                                <svg class="w-[138px] h-[54px] text-amber-900">
+                                    <use href="#logo-type"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="w-full flex flex-col sm:flex-row items-start justify-between">
+                            <a href="#" class="inline-block font-DanaMedium mt-2.5 ml-1.5 sm:ml-0 sm:mt-0 text-sm/7 md:text-lg line-clamp-2 max-w-[193px] text-zinc-700 dark:text-white">طرز تهیه قهوه دمی با دستگاه اروپرس</a>
+                            <div class="hidden sm:flex gap-5">
+                                <span class="block w-px h-[61px] bg-gray-100 dark:bg-white/10"></span>
+                                <div class="flex flex-col ml-[18px] -mt-1 text-left text-sm text-teal-600 dark:text-emerald-500">
+                                    <span class="font-DanaDemiBold text-2xl">21</span>
+                                    <span>مرداد</span>
+                                    <span>1402</span>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between w-full sm:hidden border-t border-gray-100 dark:border-white/10 pt-[18px] pb-1.5">
+                                <span class="text-teal-600 dark:text-emerald-500 text-xs">21 مرداد 1402</span>
+                                <a href="#" class="font-DanaMedium flex items-center gap-x-1 ml-1.5 h-5 rounded-md pr-2.5 pl-2 bg-orange-200/20 text-orange-300">
+                                    مطالعه
+                                    <svg class="w-3.5 h-3.5">
+                                        <use href="#arrow-left-mini"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2.5 md:pb-2 flex gap-x-2.5 sm:block bg-white dark:bg-zinc-700 shadow-normal rounded-2xl">
+                        <div class="relative w-[130px] h-[130px] shrink-0 sm:w-auto sm:h-auto group sm:mb-4 rounded-2xl rounded-bl-4xl overflow-hidden">
+                            <img src="./images/blogs/blog-4.png" class="h-full sm:h-auto object-cover" alt="Blog 1">
+                            <div class="absolute inset-0 w-full h-full opacity-0 invisible group-hover:opacity-100 group-hover:visible hidden md:flex-center bg-gradient-to-r from-orange-200/80 to-orange-300/80 transition-all delay-75">
+                                <svg class="w-[138px] h-[54px] text-amber-900">
+                                    <use href="#logo-type"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="w-full flex flex-col sm:flex-row items-start justify-between">
+                            <a href="#" class="inline-block font-DanaMedium mt-2.5 ml-1.5 sm:ml-0 sm:mt-0 text-sm/7 md:text-lg line-clamp-2 max-w-[193px] text-zinc-700 dark:text-white">طرز تهیه قهوه دمی با دستگاه اروپرس</a>
+                            <div class="hidden sm:flex gap-5">
+                                <span class="block w-px h-[61px] bg-gray-100 dark:bg-white/10"></span>
+                                <div class="flex flex-col ml-[18px] -mt-1 text-left text-sm text-teal-600 dark:text-emerald-500">
+                                    <span class="font-DanaDemiBold text-2xl">21</span>
+                                    <span>مرداد</span>
+                                    <span>1402</span>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between w-full sm:hidden border-t border-gray-100 dark:border-white/10 pt-[18px] pb-1.5">
+                                <span class="text-teal-600 dark:text-emerald-500 text-xs">21 مرداد 1402</span>
+                                <a href="#" class="font-DanaMedium flex items-center gap-x-1 ml-1.5 h-5 rounded-md pr-2.5 pl-2 bg-orange-200/20 text-orange-300">
+                                    مطالعه
+                                    <svg class="w-3.5 h-3.5">
+                                        <use href="#arrow-left-mini"></use>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

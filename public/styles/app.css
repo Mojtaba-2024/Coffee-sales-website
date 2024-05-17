@@ -1107,6 +1107,14 @@ video {
   margin-top: auto;
 }
 
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[12px\] {
+  margin-left: 12px;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -2528,6 +2536,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:ml-\[18px\] {
+    margin-left: 18px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:h-36 {
     height: 9rem;
   }
@@ -2585,6 +2601,15 @@ video {
 
   .lg\:pt-48 {
     padding-top: 12rem;
+  }
+
+  .lg\:font-DanaDemiBold {
+    font-family: Dana DemiBold;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 

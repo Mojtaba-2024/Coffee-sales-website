@@ -156,6 +156,42 @@
     .swiper-button-next-custom {
         @apply w-9 md:w-10 h-9 md:h-10 shadow-normal rounded-full bg-white dark:bg-zinc-700 text-zinc-700 dark:text-white hover:bg-gray-300 dark:hover:bg-white dark:hover:text-zinc-700 transition-all;
     }
+
+    .services {
+        @apply relative;
+    }
+
+    .services::after,
+    .services::before {
+        content: "";
+        display: block;
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        background-color: #D1D5DB;
+    }
+
+    @media screen and (min-width: 480px) {
+        .services::after,
+        .services::before {
+            content: none;
+        }
+    }
+
+    html.dark .services::after,
+    html.dark .services::before {
+        background-color: rgba(255, 255, 255, 0.1)
+    }
+
+    .services::after {
+        width: 1px;
+        height: calc(100% + 1.25rem);
+    }
+
+    .services::before {
+        width: calc(100% - 2rem);
+        height: 1px
+    }
 }
 
 @layer utilities {
